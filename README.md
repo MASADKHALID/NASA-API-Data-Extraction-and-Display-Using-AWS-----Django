@@ -9,6 +9,8 @@ AWS Lambda: Automatically fetches the latest data (e.g., Astronomy Picture of th
 
 Amazon S3: Stores the fetched JSON data.
 
+ s3://nasa-project-bucket/Mars_Rover_Photos.json
+
 AWS EventBridge: Triggers the Lambda function at scheduled intervals (e.g., once a day).
 
 Django: A Python web framework to display the data on a beautiful webpage.
